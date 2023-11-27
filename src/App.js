@@ -9,7 +9,7 @@ function App() {
     <div className="h-screen">
       <Navbar />
       <Hero />
-      <Card/>
+      <Card />
     </div>
   );
 }
