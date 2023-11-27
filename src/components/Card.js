@@ -5,8 +5,8 @@ const Card = () => {
     return(
       <div className="max-w-sm rounded overflow-hidden relative shadow-lg" key={item.id}>
         <div className="absolute p-4">
-          {item.openSpots === 0 && <div className="border border-black bg-red-700 font-bold ml-2 mt-2 py-0.5 px-2 text-white">Sold Out</div>}
-          {item.country === 'Online'&& item.openSpots !== 0 && <div className="border border-black bg-gray-100 font-bold ml-2 mt-2 py-0.5 px-2 text-black">Online</div>}
+          {item.openSpots === 0 && <div className="border border-black bg-red-700 font-bold md:ml-2 md:mt-2 md:py-0.5 md:px-2 text-white">Sold Out</div>}
+          {item.country === 'Online'&& item.openSpots !== 0 && <div className="border border-black bg-gray-100 font-bold md:ml-2 md:mt-2 md:py-0.5 px-0.5 md:px-2 text-black">Online</div>}
         </div>
         <img
           src={item.img}
